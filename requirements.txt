@@ -2,4 +2,7 @@ pandas
 numpy
 matplotlib
 flask
+<<<<<<< HEAD
 pytest
+=======
+>>>>>>> b766e22653493a514debf8058d2ee8e886ebb485
