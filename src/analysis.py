@@ -2,7 +2,7 @@ import pandas as pd
 
 def run_analysis():
     # Load the dataset
-    data = pd.read_csv('data/biostats.csv')
+    data = pd.read_csv('data/sample.csv')
     
     # Clean the column names
     data.columns = data.columns.str.replace('"', '').str.strip()

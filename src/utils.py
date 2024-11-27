@@ -11,7 +11,7 @@ def load_and_clean_data(file_path):
         pd.DataFrame: Cleaned pandas DataFrame.
     """
     # Load the dataset
-    data = pd.read_csv('data\biostats.csv')
+    data = pd.read_csv('data\sample.csv')
 
     # Clean the column names (remove quotes and whitespace)
     data.columns = data.columns.str.replace('"', '').str.strip()
