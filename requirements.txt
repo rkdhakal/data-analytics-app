@@ -1,8 +1,7 @@
-pandas
-numpy
-matplotlib
-flask
-<<<<<<< HEAD
-pytest
-=======
->>>>>>> b766e22653493a514debf8058d2ee8e886ebb485
+flask                 # For creating a simple web application
+pandas                # For data manipulation and analysis
+numpy                 # For numerical computations
+matplotlib            # For data visualization (if needed)
+pytest                # For running unit tests
+selenium              # For browser-based UI testing (if applicable)
+
