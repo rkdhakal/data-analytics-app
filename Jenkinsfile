@@ -12,7 +12,8 @@ pipeline {
         stage('Test') {
             steps {
                 // Run unit tests using pytest
-                sh 'pytest'
+                sh '''export PYTHONPATH=$PYTHONPATH:$PWD/src
+                      pytest'''
             }
         }
 
