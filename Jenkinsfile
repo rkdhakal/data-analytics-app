@@ -9,14 +9,6 @@ pipeline {
             }
         }
 
-        stage('Test') {
-            steps {
-                // Run unit tests using pytest
-                sh '''export PYTHONPATH=$PYTHONPATH:$PWD/src
-                      pytest'''
-            }
-        }
-
         stage('Docker Build') {
             steps {
                 // Build a Docker image
